@@ -50,5 +50,5 @@ var server = app.listen(3000, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('服务已经开启 骚年撸起来^^');
+    console.log('服务已经开启 骚年撸起来^^啊');
 });
