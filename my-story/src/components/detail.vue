@@ -36,7 +36,7 @@ export default {
     GetDetail () {
       this.$ajax({
         method: 'get',
-        url: 'http://192.168.128.103:3000/detail',
+        url: this.$url+'/detail',
         params: {
           author: this.$route.query.author,
           id: this.$route.query.id

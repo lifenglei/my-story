@@ -43,13 +43,16 @@ export default {
       }
     }
   },
+  mounted(){
+    console.log(`${this.$url}/login`)
+  },
   methods: {
     Login (formName) {
       this.$refs[formName].validate(valid => {
         if (valid) {
           this.$ajax({
             method: 'get',
-            url: 'http://192.168.128.103:3000/login',
+            url: `${this.$url}/login`,
             params: {
               username: this.form_login.username,
               password: this.form_login.password

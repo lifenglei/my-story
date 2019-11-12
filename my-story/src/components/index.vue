@@ -28,7 +28,7 @@ export default {
     GetList () {
       this.$ajax({
         method: 'get',
-        url: 'http://192.168.128.103:3000/artical',
+        url: this.$url+'/artical',
         params: {
           type: 1,
           name:localStorage.getItem('username')||''
@@ -44,7 +44,7 @@ export default {
               this.contentList.push(value)
             })
           }
-          
+
         })
         .catch(error => {
           console.log(error)

@@ -60,6 +60,7 @@ export default {
     }
   },
   mounted () {
+
     this.userstage = localStorage.getItem('username') // 读取本地是否存有用户信息
     if (
       this.userstage === '' ||
@@ -78,7 +79,7 @@ export default {
           this.form.time = this.Day()
           this.$ajax({
             method: 'get',
-            url: 'http://192.168.128.103:3000/publish',
+            url: this.$url+'/publish',
             params: {
               title: this.form.title,
               author: this.userstage,

@@ -59,7 +59,7 @@ export default {
     GetInfo () {
       this.$ajax({
         method: 'get',
-        url: 'http://192.168.128.103:3000/artical',
+        url: this.$url+'/artical',
         params: {
           name: this.userstage,
           type: 2
