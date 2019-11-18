@@ -19,7 +19,7 @@
 +   [vue2.0新手入门](https://www.runoob.com/w3cnote/vue2-start-coding.html)
 +  [mysql相关操作](https://www.cnblogs.com/vs-kaka/articles/11215157.html)
 #### 主要思想
-自己用node（express）搭建的服务器，通过路由获取前端页面传过来的参数，再由model层进行处理连接数据库进行操作，返回结果，传给前端，目前实现登录，发表小说，以及个人主页等
+自己用node（express）搭建的服务器，通过路由获取前端页面传过来的参数，再由model层进行处理连接数据库进行操作，返回结果，传给前端，目前实现登录，发表文诗词，以及个人主页等
 #### 登录账户
 ![测试账号](https://static.soyoung.com/sy-pre/WX20191107-194146@2x-1573546204284.png)
 #### 结束
